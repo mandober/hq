@@ -1,0 +1,17 @@
+{
+  "name": "@jsbx/flex",
+  "version": "0.1.0",
+  "description": "Generalized currying.",
+  "author": "mandober <mandober@gmail.com> (https://github.com/mandober/)",
+  "license": "MIT",
+  "homepage": "https://github.com/mandober/js-flex#readme",
+  "type": "module",
+  "main": "src/flex.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandober/js-flex.git"
+  },
+  "scripts": {
+    "test": "node --harmony src/flex.test.js"
+  }
+}
