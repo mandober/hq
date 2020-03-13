@@ -12,7 +12,7 @@ assert.strictEqual( flex(sum)(3)(5, 7)(9), 24 );
 assert.strictEqual( flex(sum)(3, 5)(7, 9), 24 );
 assert.strictEqual( flex(sum)(3)(5, 7, 9), 24 );
 assert.strictEqual( flex(sum)(3, 5, 7)(9), 24 );
-assert.strictEqual( flex(sum)(3, 5, 7, 9), 24 );  // defeating the purpose
+assert.strictEqual( flex(sum)(3, 5, 7, 9), 24 );
 
 // fix some args while decorating
 assert.strictEqual( flex(sum, 3, 5, 7)(9), 24 );
